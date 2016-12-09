@@ -23,15 +23,35 @@ h1, h2, h3 {
 
 .navbar, .home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
-  background: #2C3E50; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2C3E50 , #FD746C); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2C3E50 , #FD746C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #16222A; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #16222A , #3A6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
 .navbar {
   border: none;
 }
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;  
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+}
+
 
 .home-callout {
   color: white;
